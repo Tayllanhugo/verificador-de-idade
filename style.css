@@ -1,0 +1,82 @@
+@charset "UTF-8";
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: royalblue;
+    font-family: monospace, sans-serif;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 25px;
+    color: white;
+}
+
+#container {
+    width: 500px;
+    height: 450px;
+    background-color: white;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 1px 1px 10px;
+}
+
+.data {
+    margin: 10px;
+    text-align: center;
+}
+
+.data label {
+    font-size: 1.2em;
+    font-weight: bolder;
+}
+
+.data input {
+    width: 120px;
+    padding: 2px;
+
+}
+
+.sexo {
+    margin-top: 25px;
+    text-align: center;
+    font-size: 1.2em;
+    font-weight: bolder;
+}
+
+button {
+    position: relative;
+    left: 50%;
+    transform: translate(-50%);
+    margin-top: 30px;
+    width: 150px;
+    padding: 2px;
+    font-weight: bolder;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+#resultado {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.img {
+    width: 200px;
+    height: 170px;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%);
+    margin-top: 20px;
+    border-radius: 50%;
+ 
+}
